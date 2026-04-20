@@ -133,9 +133,9 @@
             <div class="nav-inner">
                 <a href="index.html">Home</a>
                 <span class="dot"></span>
-                <a href="cars.html">Cars</a>
-                <span class="dot"></span>
-                <a href="#" class="current" id="breadcrumb-car-name">Car</a>
+                <a href="cars.html" class="current">Car</a>
+                <!-- <span class="dot"></span>
+                <a href="#" class="current" id="breadcrumb-car-name">Car</a> -->
             </div>
         </div>
     </div>
@@ -230,7 +230,7 @@
                             </div>
                         </div>
                         <!-- Video Area End -->
-                         
+
                         <h2 class="mb--30">Car Engine</h2>
                         <ul class="feature-list2 mb--100" id="engine-specs">
                             <!-- Engine specs will be loaded here -->
@@ -274,8 +274,8 @@
                                     <h3 class="names">Jonathon Doe</h3>
                                     <p>Car Dealer</p>
                                     <div class="contact-button-area">
-                                        <a href="#" class="rts-btn radius-small whatsapp"><img src="images/portfolio/whatsapp.svg" alt=""> +14844578513</a>
-                                        <a href="#" class="rts-btn radius-small btn-primary phone"><img src="images/portfolio/phone.svg" alt=""> +18143511443</a>
+                                        <a href="#" class="rts-btn radius-small whatsapp"><img src="images/portfolio/whatsapp.svg" alt=""> +92 3070423467</a>
+                                        <a href="#" class="rts-btn radius-small btn-primary phone"><img src="images/portfolio/phone.svg" alt=""> +92 3070423467</a>
                                         <a href="#" class="rts-btn radius-small telegram"><img src="images/portfolio/send.svg" alt=""> Send Message</a>
                                     </div>
                                 </div>
@@ -597,7 +597,7 @@
             // Update page title and breadcrumb
             document.title = `${car.name} - Rent a Car Services`;
             document.getElementById('car-title').textContent = car.name;
-            document.getElementById('breadcrumb-car-name').textContent = car.name;
+            // document.getElementById('breadcrumb-car-name').textContent = car.name;
             
             // Update car description
             document.getElementById('car-description').textContent = car.description;
