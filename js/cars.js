@@ -7,6 +7,7 @@ const carsData = [
         price: 400,
         category: "tranding",
         type: "new",
+        video: "media/video-01.webm", // Video file path for this car
         images: {
             main: "images/car-list/1.webp",
             gallery: ["images/portfolio/30.webp", "images/portfolio/31.webp", "images/portfolio/32.webp", "images/portfolio/33.webp", "images/portfolio/34.webp", "images/portfolio/35.webp"]
@@ -35,6 +36,7 @@ const carsData = [
         price: 444,
         category: "usedcard",
         type: "used",
+        video: "media/video-01.webm", // Video file path for this car
         images: {
             main: "images/car-list/2.webp",
             gallery: ["images/portfolio/30.webp", "images/portfolio/31.webp", "images/portfolio/32.webp", "images/portfolio/33.webp", "images/portfolio/34.webp", "images/portfolio/35.webp"]
@@ -63,6 +65,7 @@ const carsData = [
         price: 599,
         category: "tranding",
         type: "new",
+        video: "media/video-01.webm", // Video file path for this car
         images: {
             main: "images/car-list/3.webp",
             gallery: ["images/portfolio/30.webp", "images/portfolio/31.webp", "images/portfolio/32.webp", "images/portfolio/33.webp", "images/portfolio/34.webp", "images/portfolio/35.webp"]
@@ -91,6 +94,7 @@ const carsData = [
         price: 999,
         category: "usedcard",
         type: "used",
+        video: "media/video-01.webm", // Video file path for this car
         images: {
             main: "images/car-list/4.webp",
             gallery: ["images/portfolio/30.webp", "images/portfolio/31.webp", "images/portfolio/32.webp", "images/portfolio/33.webp", "images/portfolio/34.webp", "images/portfolio/35.webp"]
@@ -119,6 +123,7 @@ const carsData = [
         price: 799,
         category: "tranding",
         type: "new",
+        video: "media/video-01.webm", // Video file path for this car
         images: {
             main: "images/car-list/5.webp",
             gallery: ["images/portfolio/30.webp", "images/portfolio/31.webp", "images/portfolio/32.webp", "images/portfolio/33.webp", "images/portfolio/34.webp", "images/portfolio/35.webp"]
@@ -147,6 +152,7 @@ const carsData = [
         price: 699,
         category: "usedcard",
         type: "used",
+        video: "media/video-01.webm", // Video file path for this car
         images: {
             main: "images/car-list/6.webp",
             gallery: ["images/portfolio/30.webp", "images/portfolio/31.webp", "images/portfolio/32.webp", "images/portfolio/33.webp", "images/portfolio/34.webp", "images/portfolio/35.webp"]
@@ -175,6 +181,7 @@ const carsData = [
         price: 999,
         category: "tranding",
         type: "new",
+        video: "media/video-01.webm", // Video file path for this car
         images: {
             main: "images/car-list/4.webp",
             gallery: ["images/portfolio/30.webp", "images/portfolio/31.webp", "images/portfolio/32.webp", "images/portfolio/33.webp", "images/portfolio/34.webp", "images/portfolio/35.webp"]
@@ -203,6 +210,7 @@ const carsData = [
         price: 799,
         category: "usedcard",
         type: "used",
+        video: "media/video-01.webm", // Video file path for this car
         images: {
             main: "images/car-list/5.webp",
             gallery: ["images/portfolio/30.webp", "images/portfolio/31.webp", "images/portfolio/32.webp", "images/portfolio/33.webp", "images/portfolio/34.webp", "images/portfolio/35.webp"]
@@ -231,6 +239,7 @@ const carsData = [
         price: 699,
         category: "tranding",
         type: "new",
+        video: "media/video-01.webm", // Video file path for this car
         images: {
             main: "images/car-list/3.webp",
             gallery: ["images/portfolio/30.webp", "images/portfolio/31.webp", "images/portfolio/32.webp", "images/portfolio/33.webp", "images/portfolio/34.webp", "images/portfolio/35.webp"]

@@ -58,7 +58,8 @@
                             </div>
                             <div class="text">
                                 <p>Send US Email</p>
-                                <a href="mailto:mabbascoder@gmail.com?subject=I want to rent a car!&body=Hello Sir! I want to rent a Car Name for a family. Is it available?">mabbascoder@gmail.com</a>
+                                <a
+                                    href="mailto:mabbascoder@gmail.com?subject=I want to rent a car!&body=Hello Sir! I want to rent a Car Name for a family. Is it available?">mabbascoder@gmail.com</a>
                             </div>
                         </div>
                         <div class="map-area">
@@ -85,10 +86,17 @@
                                 </div>
                                 <div class="nav-area">
                                     <ul class="">
-                                        <li class="main-nav"><a class="main-menu" href="index.html">Home</a></li>
-                                        <li class="main-nav"><a class="main-menu" href="cars.html">Cars</a></li>
-                                        <li class="main-nav"><a class="main-menu" href="about.html">About Us</a></li>
-                                        <li class="main-nav"><a class="main-menu main-menu-ls" href="contact.html">Contact</a></li>
+                                        <li class="main-nav">
+                                            <a class="main-menu" href="index.html">Home</a>
+                                        </li>
+                                        <li class="main-nav">
+                                            <a class="main-menu" href="cars.html">Cars</a>
+                                        </li>
+                                        <li class="main-nav">
+                                            <a class="main-menu" href="about.html">About Us</a>
+                                        </li>
+                                        <li class="main-nav"><a class="main-menu main-menu-ls"
+                                                href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="bottom-right">
@@ -158,6 +166,7 @@
                     <div class="portfolio-details-area">
                         <h2 class="mb--30">Car Description</h2>
                         <p class="mb--30" id="car-description"></p>
+                        
                         <h2 class="mb--30">Car Features</h2>
                         <ul class="feature-list mb--40" id="features-list"></ul>
                         <h2 class="mb--30">Key Specs</h2>
@@ -204,6 +213,27 @@
                                     <p>Number of Cylinders</p>
                                 </div>
                             </li>
+                        </ul>
+
+                        <h2 class="mb--30">Video</h2>
+                        <!-- Video Area Start -->
+                        <div class="rts-video-area video-2 bg-video-five bg_image jarallax mb--40">
+                            <video muted loop id="carVideo">
+                                <source id="videoSource" src="media/video-01.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="content">
+                                <div id="myBtn">
+                                    <img src="images/video/round-text.svg" alt="">
+                                    <img src="images/video/play.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Video Area End -->
+                         
+                        <h2 class="mb--30">Car Engine</h2>
+                        <ul class="feature-list2 mb--100" id="engine-specs">
+                            <!-- Engine specs will be loaded here -->
                         </ul>
                         <div class="related-project">
                             <h3 class="mb--40 text-center">Related listings</h3>
@@ -382,10 +412,85 @@
                                 All Rights Reserved by GoRental <br> Made With 💖 by <a href="https://abbasajee.vercel.app">AbbasaJee</a>
                             </p>
                             <ul class="footer-social">
-                                <li><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.5" stroke="#FF3600"></circle><path d="M10.7611 9.38745L13.7393 6H13.0335L10.4476 8.94128L8.38219 6H6L9.12328 10.4477L6 14H6.70577L9.43661 10.8939L11.6178 14H14L10.7609 9.38745H10.7611ZM9.79443 10.4869L9.47798 10.044L6.96007 6.51987H8.0441L10.0761 9.36398L10.3925 9.80687L13.0339 13.5038H11.9498L9.79443 10.4871V10.4869Z" fill="#FF3600"></path></svg></a></li>
-                                <li><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.03333 8.7832H7.11041V14.203H5.03333V8.7832Z" fill="#FF3600"></path><path d="M6.05123 7.91803C6.63181 7.91803 7.10246 7.48867 7.10246 6.95902C7.10246 6.42937 6.63181 6 6.05123 6C5.47065 6 5 6.42937 5 6.95902C5 7.48867 5.47065 7.91803 6.05123 7.91803Z" fill="#FF3600"></path><path d="M12.3314 8.66016C11.9061 8.66016 11.5456 8.73762 11.2494 8.89239C10.9534 9.0473 10.661 9.30491 10.3716 9.6655V8.78262H8.43738V14.2024H10.5145V11.5996C10.5145 11.1062 10.5928 10.7645 10.7493 10.5739C10.9059 10.3834 11.1098 10.2881 11.3616 10.2881C11.5896 10.2881 11.7665 10.3588 11.8925 10.5C12.0185 10.6412 12.0812 10.8818 12.0812 11.2222V14.2024H14.1686V10.7577C14.1686 10.0432 14.006 9.51501 13.681 9.17301C13.3564 8.83101 12.9062 8.66016 12.3314 8.66016Z" fill="#FF3600"></path><circle cx="10" cy="10" r="9.5" stroke="#FF3600"></circle></svg></a></li>
-                                <li><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.6806 5H10.7337C10.7291 5 10.7247 5.00015 10.7204 5.00059C8.7547 5.00679 8.49798 6.37936 8.49695 7.57902C8.4943 7.59023 8.49282 7.60174 8.49282 7.61369V8.45585H7.14754C7.0661 8.45585 7 8.52195 7 8.60339V10.6803C7 10.7619 7.0661 10.8279 7.14754 10.8279H8.49282V15.3856C8.49282 15.4671 8.55892 15.5331 8.64036 15.5331H10.6037C10.6853 15.5331 10.7512 15.4671 10.7512 15.3856V10.828H12.6805C12.7621 10.828 12.828 10.7621 12.828 10.6805V8.60354C12.828 8.5221 12.7621 8.456 12.6805 8.456H10.6037V7.33956H12.6805C12.7621 7.33956 12.828 7.27346 12.828 7.19202V5.14754C12.8282 5.0661 12.7621 5 12.6806 5Z" fill="#FF3600"></path><circle cx="10" cy="10" r="9.5" stroke="#FF3600"></circle></svg></a></li>
-                                <li><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="9.5" stroke="#FF3600"></circle><path d="M10.0625 7.8125C9.61749 7.8125 9.18248 7.94446 8.81247 8.19169C8.44246 8.43893 8.15407 8.79033 7.98377 9.20146C7.81347 9.6126 7.76892 10.065 7.85573 10.5015C7.94255 10.9379 8.15684 11.3388 8.47151 11.6535C8.78618 11.9682 9.18709 12.1825 9.62355 12.2693C10.06 12.3561 10.5124 12.3115 10.9235 12.1412C11.3347 11.9709 11.6861 11.6825 11.9333 11.3125C12.1805 10.9425 12.3125 10.5075 12.3125 10.0625C12.3125 9.46576 12.0754 8.89347 11.6535 8.47151C11.2315 8.04955 10.6592 7.8125 10.0625 7.8125ZM10.0625 11.1875C9.84 11.1875 9.62249 11.1215 9.43748 10.9979C9.25248 10.8743 9.10829 10.6986 9.02314 10.493C8.93799 10.2875 8.91571 10.0613 8.95912 9.84302C9.00253 9.62479 9.10967 9.42434 9.26701 9.26701C9.42434 9.10967 9.6248 9.00252 9.84302 8.95912C10.0613 8.91571 10.2875 8.93799 10.493 9.02314C10.6986 9.10828 10.8743 9.25248 10.9979 9.43748C11.1215 9.62249 11.1875 9.84 11.1875 10.0625C11.1875 10.3609 11.069 10.647 10.858 10.858C10.647 11.069 10.3609 11.1875 10.0625 11.1875Z" fill="white"></path></svg></a></li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="10" cy="10" r="9.5" stroke="#FF3600"></circle>
+                                            <path
+                                                d="M10.7611 9.38745L13.7393 6H13.0335L10.4476 8.94128L8.38219 6H6L9.12328 10.4477L6 14H6.70577L9.43661 10.8939L11.6178 14H14L10.7609 9.38745H10.7611ZM9.79443 10.4869L9.47798 10.044L6.96007 6.51987H8.0441L10.0761 9.36398L10.3925 9.80687L13.0339 13.5038H11.9498L9.79443 10.4871V10.4869Z"
+                                                fill="#FF3600"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.03333 8.7832H7.11041V14.203H5.03333V8.7832Z" fill="#FF3600">
+                                            </path>
+                                            <path
+                                                d="M6.05123 7.91803C6.63181 7.91803 7.10246 7.48867 7.10246 6.95902C7.10246 6.42937 6.63181 6 6.05123 6C5.47065 6 5 6.42937 5 6.95902C5 7.48867 5.47065 7.91803 6.05123 7.91803Z"
+                                                fill="#FF3600"></path>
+                                            <path
+                                                d="M12.3314 8.66016C11.9061 8.66016 11.5456 8.73762 11.2494 8.89239C10.9534 9.0473 10.661 9.30491 10.3716 9.6655V8.78262H8.43738V14.2024H10.5145V11.5996C10.5145 11.1062 10.5928 10.7645 10.7493 10.5739C10.9059 10.3834 11.1098 10.2881 11.3616 10.2881C11.5896 10.2881 11.7665 10.3588 11.8925 10.5C12.0185 10.6412 12.0812 10.8818 12.0812 11.2222V14.2024H14.1686V10.7577C14.1686 10.0432 14.006 9.51501 13.681 9.17301C13.3564 8.83101 12.9062 8.66016 12.3314 8.66016Z"
+                                                fill="#FF3600"></path>
+                                            <circle cx="10" cy="10" r="9.5" stroke="#FF3600"></circle>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.6806 5H10.7337C10.7291 5 10.7247 5.00015 10.7204 5.00059C8.7547 5.00679 8.49798 6.37936 8.49695 7.57902C8.4943 7.59023 8.49282 7.60174 8.49282 7.61369V8.45585H7.14754C7.0661 8.45585 7 8.52195 7 8.60339V10.6803C7 10.7619 7.0661 10.8279 7.14754 10.8279H8.49282V15.3856C8.49282 15.4671 8.55892 15.5331 8.64036 15.5331H10.6037C10.6853 15.5331 10.7512 15.4671 10.7512 15.3856V10.828H12.6805C12.7621 10.828 12.828 10.7621 12.828 10.6805V8.60354C12.828 8.5221 12.7621 8.456 12.6805 8.456H10.6037V7.33956H12.6805C12.7621 7.33956 12.828 7.27346 12.828 7.19202V5.14754C12.8282 5.0661 12.7621 5 12.6806 5Z"
+                                                fill="#FF3600"></path>
+                                            <circle cx="10" cy="10" r="9.5" stroke="#FF3600"></circle>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <mask id="mask0_1_1597" style="mask-type:luminance"
+                                                maskUnits="userSpaceOnUse" x="7" y="7" width="6" height="6">
+                                                <path
+                                                    d="M10.0625 7.8125C9.61749 7.8125 9.18248 7.94446 8.81247 8.19169C8.44246 8.43893 8.15407 8.79033 7.98377 9.20146C7.81347 9.6126 7.76892 10.065 7.85573 10.5015C7.94255 10.9379 8.15684 11.3388 8.47151 11.6535C8.78618 11.9682 9.18709 12.1825 9.62355 12.2693C10.06 12.3561 10.5124 12.3115 10.9235 12.1412C11.3347 11.9709 11.6861 11.6825 11.9333 11.3125C12.1805 10.9425 12.3125 10.5075 12.3125 10.0625C12.3125 9.46576 12.0754 8.89347 11.6535 8.47151C11.2315 8.04955 10.6592 7.8125 10.0625 7.8125ZM10.0625 11.1875C9.84 11.1875 9.62249 11.1215 9.43748 10.9979C9.25248 10.8743 9.10829 10.6986 9.02314 10.493C8.93799 10.2875 8.91571 10.0613 8.95912 9.84302C9.00253 9.62479 9.10967 9.42434 9.26701 9.26701C9.42434 9.10967 9.6248 9.00252 9.84302 8.95912C10.0613 8.91571 10.2875 8.93799 10.493 9.02314C10.6986 9.10828 10.8743 9.25248 10.9979 9.43748C11.1215 9.62249 11.1875 9.84 11.1875 10.0625C11.1875 10.3609 11.069 10.647 10.858 10.858C10.647 11.069 10.3609 11.1875 10.0625 11.1875Z"
+                                                    fill="white"></path>
+                                            </mask>
+                                            <g mask="url(#mask0_1_1597)">
+                                                <path
+                                                    d="M4.92969 39.0312C16.4629 39.0312 25.8125 29.6817 25.8125 18.1484C25.8125 6.61518 16.4629 -2.73438 4.92969 -2.73438C-6.60357 -2.73438 -15.9531 6.61518 -15.9531 18.1484C-15.9531 29.6817 -6.60357 39.0312 4.92969 39.0312Z"
+                                                    fill="#FF3600"></path>
+                                            </g>
+                                            <mask id="mask1_1_1597" style="mask-type:luminance"
+                                                maskUnits="userSpaceOnUse" x="5" y="5" width="11" height="11">
+                                                <path
+                                                    d="M12.875 15.125H7.25C6.65326 15.125 6.08097 14.8879 5.65901 14.466C5.23705 14.044 5 13.4717 5 12.875V7.25C5 6.65326 5.23705 6.08097 5.65901 5.65901C6.08097 5.23705 6.65326 5 7.25 5H12.875C13.4717 5 14.044 5.23705 14.466 5.65901C14.8879 6.08097 15.125 6.65326 15.125 7.25V12.875C15.125 13.4717 14.8879 14.044 14.466 14.466C14.044 14.8879 13.4717 15.125 12.875 15.125ZM7.25 6.125C6.95163 6.125 6.66548 6.24353 6.45451 6.45451C6.24353 6.66548 6.125 6.95163 6.125 7.25V12.875C6.125 13.1734 6.24353 13.4595 6.45451 13.6705C6.66548 13.8815 6.95163 14 7.25 14H12.875C13.1734 14 13.4595 13.8815 13.6705 13.6705C13.8815 13.4595 14 13.1734 14 12.875V7.25C14 6.95163 13.8815 6.66548 13.6705 6.45451C13.4595 6.24353 13.1734 6.125 12.875 6.125H7.25Z"
+                                                    fill="white"></path>
+                                            </mask>
+                                            <g mask="url(#mask1_1_1597)">
+                                                <path
+                                                    d="M4.92969 39.0312C16.4629 39.0312 25.8125 29.6817 25.8125 18.1484C25.8125 6.61518 16.4629 -2.73438 4.92969 -2.73438C-6.60357 -2.73438 -15.9531 6.61518 -15.9531 18.1484C-15.9531 29.6817 -6.60357 39.0312 4.92969 39.0312Z"
+                                                    fill="#FF3600"></path>
+                                            </g>
+                                            <mask id="mask2_1_1597" style="mask-type:luminance"
+                                                maskUnits="userSpaceOnUse" x="11" y="6" width="3" height="3">
+                                                <path
+                                                    d="M12.5938 8.23438C12.9821 8.23438 13.2969 7.91958 13.2969 7.53125C13.2969 7.14292 12.9821 6.82812 12.5938 6.82812C12.2054 6.82812 11.8906 7.14292 11.8906 7.53125C11.8906 7.91958 12.2054 8.23438 12.5938 8.23438Z"
+                                                    fill="white"></path>
+                                            </mask>
+                                            <g mask="url(#mask2_1_1597)">
+                                                <path
+                                                    d="M3.01291 46.9077C17.4299 46.9077 29.1171 35.2204 29.1171 20.8034C29.1171 6.38648 17.4299 -5.30078 3.01291 -5.30078C-11.4041 -5.30078 -23.0913 6.38648 -23.0913 20.8034C-23.0913 35.2204 -11.4041 46.9077 3.01291 46.9077Z"
+                                                    fill="#FF3600"></path>
+                                            </g>
+                                            <circle cx="10" cy="10" r="9.5" stroke="#FF3600"></circle>
+                                        </svg>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -444,6 +549,47 @@
         const urlParams = new URLSearchParams(window.location.search);
         const carId = urlParams.get('id');
         
+        // Function to setup video controls
+        function setupVideoControls(videoPath) {
+            const video = document.getElementById('carVideo');
+            const playBtn = document.getElementById('myBtn');
+            
+            if (video && playBtn) {
+                // Set video source
+                const videoSource = document.getElementById('videoSource');
+                if (videoSource) {
+                    videoSource.src = videoPath;
+                    video.load();
+                }
+                
+                // Play/Pause on button click
+                playBtn.addEventListener('click', function() {
+                    if (video.paused) {
+                        video.play();
+                        playBtn.style.opacity = '0.5';
+                    } else {
+                        video.pause();
+                        playBtn.style.opacity = '1';
+                    }
+                });
+                
+                // Reset button style when video ends
+                video.addEventListener('ended', function() {
+                    playBtn.style.opacity = '1';
+                });
+                
+                // Update button style when video is playing
+                video.addEventListener('play', function() {
+                    playBtn.style.opacity = '0.5';
+                });
+                
+                // Update button style when video is paused
+                video.addEventListener('pause', function() {
+                    playBtn.style.opacity = '1';
+                });
+            }
+        }
+        
         // Function to render car details
         function renderCarDetails(car) {
             if (!car) return;
@@ -472,6 +618,53 @@
             document.getElementById('spec-horsepower').textContent = car.specs.horsepower;
             document.getElementById('spec-torque').textContent = car.specs.torque;
             document.getElementById('spec-cylinders').textContent = car.specs.cylinders;
+            
+            // Render engine specs
+            const engineSpecs = document.getElementById('engine-specs');
+            engineSpecs.innerHTML = `
+                <li>
+                    <i class="fa-regular fa-circle-check"></i>
+                    <div class="text">
+                        <p>Displacement</p>
+                        <p>${car.specs.engine}</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-regular fa-circle-check"></i>
+                    <div class="text">
+                        <p>Torque</p>
+                        <p>${car.specs.torque}</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-regular fa-circle-check"></i>
+                    <div class="text">
+                        <p>Horsepower</p>
+                        <p>${car.specs.horsepower}</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-regular fa-circle-check"></i>
+                    <div class="text">
+                        <p>Number of cylinders</p>
+                        <p>${car.specs.cylinders}</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-regular fa-circle-check"></i>
+                    <div class="text">
+                        <p>Engine Layout</p>
+                        <p>${car.specs.engineLayout || 'Front-Engine'}</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-regular fa-circle-check"></i>
+                    <div class="text">
+                        <p>Engine Configurations</p>
+                        <p>${car.specs.engineConfig || 'Inline-4'}</p>
+                    </div>
+                </li>
+            `;
             
             // Render overview
             const overviewList = document.getElementById('overview-list');
@@ -545,6 +738,9 @@
             thumbGallery.innerHTML = car.images.gallery.map(img => 
                 `<div class="swiper-slide"><div class="single-thumb"><div class="thumbnail"><img src="${img}" alt=""></div></div></div>`
             ).join('');
+            
+            // Setup video with car's specific video
+            setupVideoControls(car.video || 'media/video-01.webm');
             
             // Render related cars (excluding current car)
             const relatedCarsContainer = document.getElementById('related-cars');
